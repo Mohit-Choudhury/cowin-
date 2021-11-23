@@ -1,0 +1,317 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-win</title>
+    <style>
+        .main-container{
+            background: white;
+            height: 100%;
+            width: 100%;
+            float: left;
+        }
+        .main-header{
+            background: rgb(65, 65, 204);
+            height: 10%;
+            width: 100%;
+            float: left;
+        }
+        .header-content{
+            height: 100%;
+            width: 60%;
+            float: left;
+            margin-left:20% ;
+            /* background: rgb(32, 32, 30); */
+            color: white;
+        }
+        .sub-header{
+            background: white;
+            color: blue;
+            height: 10%;
+            width: 100%;
+            float: left;
+
+        }
+        .img{
+            height: 100%;
+            width: 8%;
+            float: left;
+        }
+        .btn{
+            background:  white(183, 183, 218);
+            color: black;
+            border: 1px solid white;
+            /* border-radius: 20%; */
+        }
+        .btn:hover{
+            color:rgb(65, 65, 204) ;
+            
+        }
+        .btn:active{
+            color: sandybrown;
+        }
+        .left-header-content{
+            float: right;
+            margin-right:3px ;
+
+        }
+        .sub-header-content{
+            /* background: lightblue; */
+            height: 100%;
+            width: 60%;
+            /* float: left; */
+            margin:auto;
+        }
+        .items{
+            float: right;
+            margin-right: 10%;
+        }
+        .main-content{
+            background: rgb(155, 80, 80);
+            height: 77%;
+            width: 80%;
+            margin: auto;
+            margin-top: 10%;
+        }
+        .main-content-1{
+            background: white;
+            color: black;
+            height: 30%;
+            width: 100%;
+            float: left;
+            /* border: 1px solid black; */
+        }
+        .main-content-2{
+            background: white;
+            color: black;
+            height: 70%;
+            width: 100%;
+            float: left;
+        }
+        .main-search{
+            background: white;
+            height: 30%;
+            width: 100%;
+            float: left;
+        }
+        .date{
+            background: white;
+            height: 20%;
+            width: 70%;
+            /* border: 1px solid black; */
+            float: right;
+        }
+        .area{
+            background: white;
+            height: 17%;
+            width: 100%;
+            float: left;
+            /* border: 1px solid black; */
+        }
+        .lhs{
+            background: white;
+            height: 100%;
+            width: 30%;
+            float: left;   
+        }
+        .lhs:hover{
+            color: lightgrey;
+        }
+        .rhs{
+            background: white;
+            height: 100%;
+            width: 70%;
+            float: right;
+        }
+        .sep{
+            background: lightgrey;
+            height: 100%;
+            width: 9%;
+            /* border: 1px solid black;  */
+            float: left;
+            text-align: center;
+        }
+        .sep:hover{
+            color: grey;
+        }
+        .arrow{
+            background: lightgrey;
+            height: 100%;
+            width: 6.3%;
+            /* border: 1px solid black; */
+            float: left;
+            text-align: center;
+        }
+        .booked{
+            background: rgb(236, 69, 69);
+        }
+        .book{
+            color: rgb(65, 65, 204);
+            font-weight: bold;
+        }
+        .botton{
+            background: rgb(238, 235, 235);
+            color: black;
+            height: 60%;
+            width: 78%;
+            margin: auto; 
+
+        }
+        .on-site{
+            padding-top: 5px;
+            padding-left: 7px;
+            float: left;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-header">
+            <div class="header-content">
+                <span> <img  class="img" src="/img/national.png" alt=""> Ministry of Health <br> and Family Welfare</span>
+                <span class="left-header-content">Verify Certificate / Dashboard
+                    <button class="btn">A+</button>
+                    <button class="btn">A</button>
+                    <button class="btn">A-</button>
+                    English/Logout
+                </span>
+            </div>
+        </div>
+        <div class="sub-header">
+            <div class="sub-header-content">
+                <span>Co-WIN <br> winner over COVID-19</span>
+                <span class="items">Vaccination Service Platforms Resources Supports</span>
+                <hr>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-content-1">
+                <div class="book">Book Appointment for Dose 2 (COVISHIELD)</div>
+                <div>The slots availability data displayed in the pincode or district 
+                    search is provided by the state govt and private hospitals. CoWIN does 
+                    not create this data, therefore we cannot guarantee that it is the most recent and accurate data.
+                </div>
+                <br>
+                <div>
+                    <button class="btn"> Search By Pin</button>
+                    <button class="btn"> Search By District</button>
+                </div>
+                <div>
+                     <form action="process.php"> 
+                        <label for="Search">Enter to Search</label>
+                        <input type="text">
+                    </form>
+                </div>
+            </div>
+            <div class="main-content-2">
+                <div class="main-search">
+                    <span>Showing results for |</span>
+                    <span>Does:2 |</span>
+                    <span>Vaccine: COVISHIELD |</span>
+                    <span>Cost:Free |</span> <br>
+                    <span>Filter result by:|Age:| Cost:<br> 
+                        <button>18 & Above</button>
+                        <button>18-44 only</button>
+                        <button>45 & Above</button>
+                    </span>
+                    <span>  
+                    <button>Paid</button>
+                    <button>Free</button></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="date">
+                    <div class="sep">9 sept 2021</div>
+                    <div class="sep">10 sept 2021</div>
+                    <div class="sep">11 sept 2021</div>
+                    <div class="sep">12 sept 2021</div>
+                    <div class="sep">13 sept 2021</div>
+                    <div class="sep">14 sept 2021</div>
+                    <div class="sep">15 sept 2021</div>
+                    <div class="sep">16 sept 2021</div>
+                    <div class="sep">17 sept 2021</div>
+                    <div class="sep">18 sept 2021</div>
+                    <div class="arrow"> > </div>
+                </div>
+                <div class="area">
+                    <div class="lhs">BADAKHUA UGUP SCHOOL. BALASORE <br>Balasore, Balasore,756001 </div>
+                    <div class="rhs">
+                        <div class="sep booked"> Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 45+</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">45+</div>
+                        <div class="arrow"> > </div>
+                    </div>
+                </div>
+                <div class="area">
+                    <div class="lhs">PHIRINGPATNA UGUP SCHOOL.BALASORE <br>Sahadevkhunta,Balasore,756001  </div>
+                    <div class="rhs">
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">159 45+</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">200 18-44</div>
+                        <div class="sep">112 18-44</div>
+                        <div class="arrow">></div>
+                    </div>
+                </div>
+                <div class="area">
+                    <div class="lhs">JHADESWAR PRIMARY SCHOOL. BALASORE <br>Balasore,Balasore,Odisha,756001  </div>
+                    <div class="rhs">
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">NA</div>
+                        <div class="sep">120 18-44</div>
+                        <div class="sep">200 18-44</div>
+                        <div class="sep"> 45 45+</div>
+                        <div class="sep">NA</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep booked">Booked 18-44</div>
+                        <div class="sep">NA</div>
+                        <div class="arrow">></div>
+                    </div>
+                </div>
+            </div>
+           
+
+             </div>
+             <br>
+             <div class="botton">
+                 <div class="on-site">
+                    On-site registration and vaccination services are now available.
+                    <ul>
+                        <li>Slots are updated by state vaccination centers and private hospitals everyday at 8AM, 12PM, 4PM & 8PM</li>
+                        <li>You are allowed 20 searches within 15 minutes. Overuse of search can lead to 24 hours ban for your account. Refer to our Terms of Service for more information</li>
+                        <li>Terminology and Abbreviations</li>
+                        <ul>
+                            <li>D1 - Vaccine Dose #1</li>
+                            <li>D2 - Vaccine Dose #2</li>
+                            <li>Walk-in available at all vaccination centers – both Government and Private centers for all people aged 18 years or above. For slot availability and timing of walk-ins, please contact the vaccination center directly. However, it is recommended that you book your appointment online for convenience.</li>
+                        </ul>
+                        <li>At all vaccination centers – both Government and Private.</li>
+                        <li>For all people aged 18 years or above.</li>
+                        <li>For slot availability and timing, please contact the vaccination center directly.</li>
+                    </ul>
+                 </div>
+               
+
+             </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
